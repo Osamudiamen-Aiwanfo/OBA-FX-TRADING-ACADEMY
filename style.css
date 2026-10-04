@@ -217,7 +217,11 @@ section p {
     section {
         padding: 20px;
     }
-}
+#contact i {
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 6px;
+    }
 
 section h2 {
     color: #4e0000af;
@@ -322,5 +326,45 @@ header h1 {
 }
 
 #cta h2 {
+    color: #b8860b;
+}
+
+#services h3 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+#contact i {
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+#contact .fa-whatsapp {
+    color: #25D366;
+}
+
+#contact .fa-telegram {
+    color: #229ED9;
+}
+
+#contact .fa-instagram {
+    color: #E4405F;
+}
+
+#contact .fa-envelope {
+    color: #B8860B;
+}
+
+#contact .fa-youtube {
+    color: #FF0000;
+}
+
+section li i {
+    margin-right: 6px;
+    font-size: 17px;
+}
+
+section li i,
+section h3 i {
     color: #b8860b;
 }
